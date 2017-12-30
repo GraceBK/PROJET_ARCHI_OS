@@ -7,8 +7,12 @@
 //
 
 #include <iostream>
+#include "TailleCache.hpp"
 
 int main(int argc, const char * argv[]) {
     std::cout << "Projet Archi-OS!\n";
+    TailleCache();
+    std::cout << "TAILLE du CACHE!\n";
+    
     return 0;
 }
