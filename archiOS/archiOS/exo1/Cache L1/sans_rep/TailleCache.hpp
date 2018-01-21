@@ -17,8 +17,6 @@
 #define MAX_TAILLE_DATA_KO 4096 // = 4 Mo
 #define CACHE_LINE_SIZE 32  // remplacez ici par la taille de votre ligne cache
 
-#define NBRE_REPETITION 9
-
 class TailleCache {
     
 public:
