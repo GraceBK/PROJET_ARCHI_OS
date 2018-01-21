@@ -7,10 +7,15 @@
 //
 
 #include <iostream>
-#include "TailleCache.hpp"
+// #include "TailleCache.hpp"
+#include "BandePassante.hpp"
 
 int main(int argc, const char * argv[]) {
-    std::cout << "# taille_data    temps_acces_moyen\n";
-    TailleCache();
+    // std::cout << "# taille_data    temps_acces_moyen\n";
+    // TailleCache();
+
+
+    std::cout << "# taille_data    temps_acces_moyen    pas\n";
+    BandePassante();
     return 0;
 }
